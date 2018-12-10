@@ -1,0 +1,14 @@
+{
+  "name": "drone-line-notify-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hp-huang-tw/drone-line-notify-js.git",
+  "author": "hp.huang <stitchmos@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
