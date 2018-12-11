@@ -7,7 +7,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 COPY package.json yarn.lock /app/
-RUN yarn install --pure-lockfil && yarn cache clean
+RUN yarn install --pure-lockfile && yarn cache clean
 
-COPY . /app
+COPY . /app/
 CMD [ "yarn", "start" ]
